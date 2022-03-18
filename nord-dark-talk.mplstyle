@@ -1,0 +1,67 @@
+# A dark Nord themed matplotlib style.
+# This style with larger elements, suitable for talks.
+#
+# Inspired by Seaborn whitegrid and the Nord theme:
+# https://www.nordtheme.com/
+# https://seaborn.pydata.org/
+#
+#----------------------------------------------------------
+
+# Figure-wide
+figure.facecolor: 2e3440
+lines.linewidth: 2.5
+lines.solid_capstyle: round
+lines.markersize: 9
+patch.linewidth: 1.5
+patch.edgecolor: 3b4252
+
+# Colors
+axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead'])
+image.cmap: magma
+
+# Axes
+axes.facecolor: 2e3440
+axes.edgecolor: 4c566a
+axes.labelcolor: d8dee9
+axes.axisbelow: True
+axes.grid: False
+axes.linewidth: 1.8
+axes.titlelocation: left
+axes.titleweight: bold
+
+# Grid
+grid.color: 434c5e
+grid.linestyle: -
+grid.linewidth: 1.5
+
+# Ticks
+xtick.direction: out
+ytick.direction: out
+xtick.color: 4c566a
+ytick.color: 4c566a
+xtick.labelcolor: d8dee9
+ytick.labelcolor: d8dee9
+xtick.major.width: 1.8
+ytick.major.width: 1.8
+xtick.minor.width: 1.5
+ytick.minor.width: 1.5
+xtick.major.size: 6.0
+ytick.major.size: 6.0
+xtick.minor.size: 4.0
+ytick.minor.size: 4.0
+
+# Font
+text.color: d8dee9
+font.family: sans-serif
+font.sans-serif: Gill Sans MT, Gill Sans, Gill Sans Nova, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.size: 18
+axes.labelsize: 18
+axes.titlesize: 18
+xtick.labelsize: 16
+ytick.labelsize: 16
+legend.fontsize: 16
+
+# Legend
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
