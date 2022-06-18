@@ -4,6 +4,7 @@
 # https://www.nordtheme.com/
 # https://seaborn.pydata.org/
 #
+# GC
 #----------------------------------------------------------
 
 # Figure-wide
@@ -12,10 +13,10 @@ lines.linewidth: 1.5
 lines.solid_capstyle: round
 lines.markersize: 6
 patch.linewidth: 1
-patch.edgecolor: 3b4252
+patch.edgecolor: 434c5e
 
 # Colors
-axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead'])
+axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead', '4c566a'])
 image.cmap: magma
 
 # Axes
@@ -29,7 +30,7 @@ axes.titlelocation: left
 axes.titleweight: bold
 
 # Grid
-grid.color: 434c5e
+grid.color: 3b4252
 grid.linestyle: -
 grid.linewidth: 1
 
@@ -52,7 +53,7 @@ ytick.minor.size: 2.5
 # Font
 text.color: d8dee9
 font.family: sans-serif
-font.sans-serif: Gill Sans MT, Gill Sans, Gill Sans Nova, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.sans-serif: Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
 font.size: 16
 axes.labelsize: 16
 axes.titlesize: 16

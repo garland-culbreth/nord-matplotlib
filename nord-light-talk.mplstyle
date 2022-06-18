@@ -5,6 +5,7 @@
 # https://www.nordtheme.com/
 # https://seaborn.pydata.org/
 #
+# GC
 #----------------------------------------------------------
 
 # Figure-wide
@@ -16,12 +17,12 @@ patch.linewidth: 1.5
 patch.edgecolor: eceff4
 
 # Color cycle
-axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead', '4c566a'])
+axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead', 'c4ccdc'])
 image.cmap: magma
 
 # Axes
 axes.facecolor: white
-axes.edgecolor: d0d8e5
+axes.edgecolor: d8dee9
 axes.labelcolor: 2e3440
 axes.axisbelow: True
 axes.grid: False
@@ -30,15 +31,15 @@ axes.titlelocation: left
 axes.titleweight: bold
 
 # Grid
-grid.color: d8dee9
+grid.color: eceff4
 grid.linestyle: -
 grid.linewidth: 1.5
 
 # Ticks
 xtick.direction: out
 ytick.direction: out
-xtick.color: d0d8e5
-ytick.color: d0d8e5
+xtick.color: d8dee9
+ytick.color: d8dee9
 xtick.labelcolor: 2e3440
 ytick.labelcolor: 2e3440
 xtick.major.width: 1.8
@@ -53,7 +54,7 @@ ytick.minor.size: 4.0
 # Font
 text.color: 2e3440
 font.family: sans-serif
-font.sans-serif: Gill Sans MT, Gill Sans, Gill Sans Nova, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.sans-serif: Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
 font.size: 18
 axes.labelsize: 18
 axes.titlesize: 18

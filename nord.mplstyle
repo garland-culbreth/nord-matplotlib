@@ -21,7 +21,7 @@ image.cmap: magma
 
 # Axes
 axes.facecolor: white
-axes.edgecolor: d8dee9
+axes.edgecolor: 4c566a
 axes.labelcolor: 2e3440
 axes.axisbelow: True
 axes.grid: False
@@ -30,17 +30,17 @@ axes.titlelocation: left
 axes.titleweight: bold
 
 # Grid
-grid.color: eceff4
+grid.color: e5e9f0
 grid.linestyle: -
 grid.linewidth: 1
 
 # Ticks
 xtick.direction: out
 ytick.direction: out
-xtick.color: d8dee9
-ytick.color: d8dee9
-xtick.labelcolor: 2e3440
-ytick.labelcolor: 2e3440
+xtick.color: 4c566a
+ytick.color: 4c566a
+xtick.labelcolor: 4c566a
+ytick.labelcolor: 4c566a
 xtick.major.width: 1.25
 ytick.major.width: 1.25
 xtick.minor.width: 1
