@@ -13,7 +13,7 @@ in an active environment; you may need to create the directory. Save the downloa
 Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
 ```py
 import matplotlib.pyplot as plt
-plt.style.use("nord-light")
+plt.style.use("nord")
 ```
 The styles work best when used together with Seaborn, especially `sns.despine()`.
 
