@@ -5,22 +5,22 @@ Styles strongly inspired by [Seaborn](https://seaborn.pydata.org/).
 
 # Examples
 `nord`  
-![nord-sample](https://user-images.githubusercontent.com/70354045/174460584-032be275-2386-46ea-8a5f-143904bd5b23.png)
+![nord-sample](https://user-images.githubusercontent.com/70354045/198936552-aac91759-fa18-48f8-bcc4-f2c2175e036a.png)
 
 `nord-talk`  
-![nord-talk-sample](https://user-images.githubusercontent.com/70354045/174460591-f9909d09-e1b8-49d1-a718-8f7d83b9bc0b.png)
+![nord-talk-sample](https://user-images.githubusercontent.com/70354045/198936569-20f91790-7324-4dfe-be4b-b6cdfc8b11ac.png)
 
 `nord-light`  
-![nord-light-sample](https://user-images.githubusercontent.com/70354045/174460592-c06d416b-1354-4b84-8b09-89d5d96fa0ec.png)
+![nord-light-sample](https://user-images.githubusercontent.com/70354045/198936588-7ef505be-5e50-4ba7-b8b3-65ad8291cee0.png)
 
 `nord-light-talk`  
-![nord-light-talk-sample](https://user-images.githubusercontent.com/70354045/174460593-bd596058-0334-4854-8b52-90e542008605.png)
+![nord-light-talk-sample](https://user-images.githubusercontent.com/70354045/198936630-2300079b-8fd3-476b-b90b-067af65f0c54.png)
 
 `nord-dark`  
-![nord-dark-sample](https://user-images.githubusercontent.com/70354045/174460596-7fdb2c12-4d9a-490c-92f0-0a5526a03c39.png)
+![nord-dark-sample](https://user-images.githubusercontent.com/70354045/198936651-06511aa3-1241-44bc-acb1-abb0958011c4.png)
 
 `nord-dark-talk`  
-![nord-dark-talk-sample](https://user-images.githubusercontent.com/70354045/174460597-65d189e3-79c0-4e65-88c1-01801ad1982f.png)
+![nord-dark-talk-sample](https://user-images.githubusercontent.com/70354045/198936676-dc09c39e-163b-4c63-a631-9779ed2cca73.png)
 
 
 # Installation and Use
