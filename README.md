@@ -2,22 +2,6 @@
 [Nord](https://www.nordtheme.com/) themed stylesheets for [Matplotlib](https://matplotlib.org/).
 Styles strongly inspired by [Seaborn](https://seaborn.pydata.org/).
 
-# Installation and Use
-Download the mplstyle files and save them to your Matplotlib style library. To locate your Matplotlib style library, run:
-```py
-import matplotlib
-matplotlib.get_configdir()
-```
-in an active environment; you may need to create the directory. Save the downloaded `.mplstyle` files there.
-
-Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
-```py
-import matplotlib.pyplot as plt
-plt.style.use("nord")
-```
-The styles work best when used together with Seaborn, especially `sns.despine()`.
-
-All styles have a font stack that attempts to use Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings).
 
 # Examples
 `nord`  
@@ -38,3 +22,20 @@ All styles have a font stack that attempts to use Gill Sans, then falls back on 
 `nord-dark-talk`  
 ![nord-dark-talk-sample](https://user-images.githubusercontent.com/70354045/174460597-65d189e3-79c0-4e65-88c1-01801ad1982f.png)
 
+
+# Installation and Use
+Download the mplstyle files and save them to your Matplotlib style library. To locate your Matplotlib style library, run:
+```py
+import matplotlib
+matplotlib.get_configdir()
+```
+in an active environment; you may need to create the directory. Save the downloaded `.mplstyle` files there.
+
+Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
+```py
+import matplotlib.pyplot as plt
+plt.style.use("nord")
+```
+The styles work best when used together with Seaborn, especially `sns.despine()`.
+
+All styles have a font stack that attempts to use Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings).
