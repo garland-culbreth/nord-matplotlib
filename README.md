@@ -3,6 +3,24 @@
 Styles strongly inspired by [Seaborn](https://seaborn.pydata.org/).
 
 
+# Installation and Use
+Download the mplstyle files and save them to your Matplotlib style library. To locate your Matplotlib style library, run:
+```py
+import matplotlib
+matplotlib.get_configdir()
+```
+in an active environment; you may need to create the directory. Save the downloaded `.mplstyle` files there.
+
+Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
+```py
+import matplotlib.pyplot as plt
+plt.style.use("nord")
+```
+The styles work best when used together with Seaborn, especially `sns.despine()`.
+
+All styles have a font stack that attempts to use Myriad Pro, then Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Myriad Pro is a commercial font and to use it you must [buy a license](https://www.fontspring.com/fonts/adobe/myriad-pro). Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings) for free.
+
+
 # Examples
 `nord`  
 ![nord-sample](https://user-images.githubusercontent.com/70354045/198936552-aac91759-fa18-48f8-bcc4-f2c2175e036a.png)
@@ -21,21 +39,3 @@ Styles strongly inspired by [Seaborn](https://seaborn.pydata.org/).
 
 `nord-dark-talk`  
 ![nord-dark-talk-sample](https://user-images.githubusercontent.com/70354045/198936676-dc09c39e-163b-4c63-a631-9779ed2cca73.png)
-
-
-# Installation and Use
-Download the mplstyle files and save them to your Matplotlib style library. To locate your Matplotlib style library, run:
-```py
-import matplotlib
-matplotlib.get_configdir()
-```
-in an active environment; you may need to create the directory. Save the downloaded `.mplstyle` files there.
-
-Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
-```py
-import matplotlib.pyplot as plt
-plt.style.use("nord")
-```
-The styles work best when used together with Seaborn, especially `sns.despine()`.
-
-All styles have a font stack that attempts to use Myriad Pro, then Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Myriad Pro is a commercial font and to use it you must buy a license from Adobe. Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings).
