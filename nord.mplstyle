@@ -16,7 +16,7 @@ patch.linewidth: 1
 patch.edgecolor: eceff4
 
 # Colors
-axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'bf616a', 'd08770', 'ebcb8b', 'a3be8c', 'b48ead', 'c4ccdc'])
+axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'd08770', 'bf616a', 'b48ead', 'a3be8c', 'ebcb8b', 'b7bfcc'])
 image.cmap: magma
 
 # Axes
@@ -51,9 +51,9 @@ xtick.minor.size: 2.5
 ytick.minor.size: 2.5
 
 # Font
-text.color: 2e3440
+text.color: 434c5e
 font.family: sans-serif
-font.sans-serif: Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.sans-serif: Myriad Pro, Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
 font.size: 14
 axes.labelsize: 16
 axes.titlesize: 16
