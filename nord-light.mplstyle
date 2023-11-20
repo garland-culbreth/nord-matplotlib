@@ -9,59 +9,69 @@
 
 # Figure-wide
 figure.facecolor: white
-lines.linewidth: 1.5
+lines.linewidth: 1
 lines.solid_capstyle: round
 lines.markersize: 6
 patch.linewidth: 1
-patch.edgecolor: eceff4
+patch.edgecolor: E5E9F0
 
 # Colors
-axes.prop_cycle: cycler('color', ['5e81ac', '88c0d0', 'd08770', 'bf616a', 'b48ead', 'a3be8c', 'ebcb8b', 'b7bfcc'])
+axes.prop_cycle: cycler('color', ["5e81ac", "88c0d0", "d08770", "bf616a", "b48ead", "a3be8c", "ebcb8b", "abb9cf"])
 image.cmap: magma
 
 # Axes
+axes.spines.top: False
+axes.spines.right: False
 axes.facecolor: white
-axes.edgecolor: d8dee9
-axes.labelcolor: 2e3440
+axes.edgecolor: C2CCDC
+axes.labelcolor: 3B4252
 axes.axisbelow: True
 axes.grid: False
-axes.linewidth: 1.25
+axes.linewidth: 1
 axes.titlelocation: left
 axes.titleweight: bold
 
 # Grid
-grid.color: eceff4
+grid.color: e5e9f0
 grid.linestyle: -
 grid.linewidth: 1
 
 # Ticks
 xtick.direction: out
 ytick.direction: out
-xtick.color: d8dee9
-ytick.color: d8dee9
-xtick.labelcolor: 434c5e
-ytick.labelcolor: 434c5e
-xtick.major.width: 1.25
-ytick.major.width: 1.25
-xtick.minor.width: 1
-ytick.minor.width: 1
+xtick.color: C2CCDC
+ytick.color: C2CCDC
+xtick.labelcolor: 586377
+ytick.labelcolor: 586377
+xtick.major.width: 1
+ytick.major.width: 1
+xtick.minor.width: 0.75
+ytick.minor.width: 0.75
 xtick.major.size: 4.0
 ytick.major.size: 4.0
-xtick.minor.size: 2.5
-ytick.minor.size: 2.5
+xtick.minor.size: 2.75
+ytick.minor.size: 2.75
 
 # Font
-text.color: 3b4252
+text.color: 434C5E
 font.family: sans-serif
-font.sans-serif: Myriad Pro, Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
-font.size: 14
-axes.labelsize: 16
-axes.titlesize: 16
-xtick.labelsize: 14
-ytick.labelsize: 14
-legend.fontsize: 14
+font.sans-serif: Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.size: 12
+axes.labelsize: 14
+axes.titlesize: 14
+xtick.labelsize: 12
+ytick.labelsize: 12
+legend.fontsize: 12
 
 # Legend
 legend.frameon: False
 legend.numpoints: 1
 legend.scatterpoints: 1
+
+# Scatter plots
+scatter.edgecolors: face
+
+# Boxplots
+boxplot.showcaps: False
+boxplot.showbox: False
+boxplot.showfliers: False
