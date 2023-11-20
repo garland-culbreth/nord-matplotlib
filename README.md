@@ -25,36 +25,36 @@ All styles have a font stack that attempts to use Gill Sans, then falls back on 
 <details>
   <summary>nord</summary>
 
-  ![ex-nord](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/7a0cfc00-5272-45f2-85a9-4ebc84e34d8c)
-</details> 
+  ![nord](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/eb0dcd7b-23b5-4538-9ad7-ce2f128b2e07)
+</details>
 
 <details>
   <summary>nord-talk</summary>
 
-  ![ex-nord-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/1e7d02d5-9818-4038-ba2e-e075e0d909e1)
+  ![nord-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/d79ecce5-159d-469b-a881-0d13d8c9be66)
 </details>
 
 <details>
   <summary>nord-light</summary>
 
-  ![ex-nord-light](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/6e4eb298-e01a-4794-9551-20c410d8ac90)
+  ![nord-light](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/5b1910f6-0730-410c-a87b-b912462490ab)
 </details>
 
 <details>
   <summary>nord-light-talk</summary>
 
-  ![ex-nord-light-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/99e12bb5-a72f-4c55-bbd4-e9ab34397c1b)
+  ![nord-light-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/d3e16a89-6a88-415d-ac9f-ea90b8074917)
 </details>
 
 <details>
   <summary>nord-dark</summary>
 
-  ![ex-nord-dark](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/ff67c57f-cc08-4881-b280-1d4c465ed558)
+  ![nord-dark](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/030b54e6-86bb-44ed-a6f7-949342515c7e)
 </details>
 
 <details>
   <summary>nord-dark-talk</summary>
 
-  ![ex-nord-dark-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/026604f2-bfdb-462c-a06c-c7a05bfc29b0)
+  ![nord-dark-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/c5843ada-fe90-41b9-a54a-99d1551bd9df)
 </details>
 
