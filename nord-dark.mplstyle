@@ -55,7 +55,7 @@ ytick.minor.size: 2.75
 # Font
 text.color: d8dee9
 font.family: sans-serif
-font.sans-serif: Gill Sans Nova, Gill Sans MT, Gill Sans, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.sans-serif: Roboto, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, sans-serif
 font.size: 12
 axes.labelsize: 14
 axes.titlesize: 14
