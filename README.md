@@ -18,7 +18,7 @@ plt.style.use("nord")
 ```
 The styles work best when used together with Seaborn, especially `sns.despine()`.
 
-All styles have a font stack that attempts to use Myriad Pro, then Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Myriad Pro is a commercial font and to use it you must [buy a license](https://www.fontspring.com/fonts/adobe/myriad-pro). Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings) for free.
+All styles have a font stack that attempts to use Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings) for free.
 
 
 # Examples
