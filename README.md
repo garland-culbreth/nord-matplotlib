@@ -18,43 +18,43 @@ plt.style.use("nord")
 ```
 The styles work best when used together with Seaborn, especially `sns.despine()`.
 
-All styles have a font stack that attempts to use Gill Sans, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Gill Sans is a standard system font on both Windows (as Gill Sans MT) and macOS (as Gill Sans). Windows users can also get Gill Sans Nova as a system font by installing the optional [Pan-European Supplemental Fonts](https://docs.microsoft.com/en-us/windows/deployment/windows-10-missing-fonts#install-optional-fonts-manually-without-changing-language-settings) for free.
+All styles have a font stack that attempts to use Roboto, then falls back on Helvetica or Arial, then falls back on Matplotlib defaults. Roboto is available for free on [Google fonts](https://fonts.google.com/specimen/Roboto).
 
 
 # Examples
 <details>
   <summary>nord</summary>
 
-  ![nord](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/eb0dcd7b-23b5-4538-9ad7-ce2f128b2e07)
+  ![nord](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/52b45c20-e738-4e6c-b610-9c376871ae19)
 </details>
 
 <details>
   <summary>nord-talk</summary>
 
-  ![nord-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/d79ecce5-159d-469b-a881-0d13d8c9be66)
+  ![nord-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/a2fa0a02-2d5f-4b77-b4ea-f87b5b434b6c)
 </details>
 
 <details>
   <summary>nord-light</summary>
 
-  ![nord-light](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/5b1910f6-0730-410c-a87b-b912462490ab)
+  ![nord-light](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/fa7ae3c6-1b46-4a16-85b5-ec913bbb86e0)
 </details>
 
 <details>
   <summary>nord-light-talk</summary>
 
-  ![nord-light-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/d3e16a89-6a88-415d-ac9f-ea90b8074917)
+  ![nord-light-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/efbdfdc3-14d3-4dc4-a1cd-e703cd4df2ef)
 </details>
 
 <details>
   <summary>nord-dark</summary>
 
-  ![nord-dark](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/030b54e6-86bb-44ed-a6f7-949342515c7e)
+  ![nord-dark](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/8d4fe843-783a-45a5-9637-c6ea00914eac)
 </details>
 
 <details>
   <summary>nord-dark-talk</summary>
 
-  ![nord-dark-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/c5843ada-fe90-41b9-a54a-99d1551bd9df)
+  ![nord-dark-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/e63f8bcf-2293-41f7-8a80-5f5eb222f77a)
 </details>
 
