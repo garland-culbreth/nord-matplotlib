@@ -9,7 +9,7 @@ Download the mplstyle files and save them to your Matplotlib style library. To l
 import matplotlib
 matplotlib.get_configdir()
 ```
-in an active environment; you may need to create the directory. Save the downloaded `.mplstyle` files there.
+in an active environment. In the directory returned by the command, look for a subdirectory named `stylelib`; you may need to create one. Save the downloaded `.mplstyle` files in the `stylelib` directory.
 
 Once the styles are in ` mpl_configdir/stylelib` you can load them with `plt.style.use()`. For example:
 ```py
@@ -22,20 +22,39 @@ All styles have a font stack that attempts to use Myriad Pro, then Gill Sans, th
 
 
 # Examples
-`nord`  
-![nord-sample](https://user-images.githubusercontent.com/70354045/198936552-aac91759-fa18-48f8-bcc4-f2c2175e036a.png)
+<details>
+  <summary>nord</summary>
 
-`nord-talk`  
-![nord-talk-sample](https://user-images.githubusercontent.com/70354045/198936569-20f91790-7324-4dfe-be4b-b6cdfc8b11ac.png)
+  ![ex-nord](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/7a0cfc00-5272-45f2-85a9-4ebc84e34d8c)
+</details> 
 
-`nord-light`  
-![nord-light-sample](https://user-images.githubusercontent.com/70354045/198936588-7ef505be-5e50-4ba7-b8b3-65ad8291cee0.png)
+<details>
+  <summary>nord-talk</summary>
 
-`nord-light-talk`  
-![nord-light-talk-sample](https://user-images.githubusercontent.com/70354045/198936630-2300079b-8fd3-476b-b90b-067af65f0c54.png)
+  ![ex-nord-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/1e7d02d5-9818-4038-ba2e-e075e0d909e1)
+</details>
 
-`nord-dark`  
-![nord-dark-sample](https://user-images.githubusercontent.com/70354045/198936651-06511aa3-1241-44bc-acb1-abb0958011c4.png)
+<details>
+  <summary>nord-light</summary>
 
-`nord-dark-talk`  
-![nord-dark-talk-sample](https://user-images.githubusercontent.com/70354045/198936676-dc09c39e-163b-4c63-a631-9779ed2cca73.png)
+  ![ex-nord-light](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/6e4eb298-e01a-4794-9551-20c410d8ac90)
+</details>
+
+<details>
+  <summary>nord-light-talk</summary>
+
+  ![ex-nord-light-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/99e12bb5-a72f-4c55-bbd4-e9ab34397c1b)
+</details>
+
+<details>
+  <summary>nord-dark</summary>
+
+  ![ex-nord-dark](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/ff67c57f-cc08-4881-b280-1d4c465ed558)
+</details>
+
+<details>
+  <summary>nord-dark-talk</summary>
+
+  ![ex-nord-dark-talk](https://github.com/garland-culbreth/nord-matplotlib/assets/70354045/026604f2-bfdb-462c-a06c-c7a05bfc29b0)
+</details>
+
