@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer being updated. Please use [simplstyles](https://github.com/garland-culbreth/simplstyles) for a maintained version.
+
 # Nord Matplotlib Styles
 [Nord](https://www.nordtheme.com/) themed stylesheets for [Matplotlib](https://matplotlib.org/).
 Styles strongly inspired by [Seaborn](https://seaborn.pydata.org/).
